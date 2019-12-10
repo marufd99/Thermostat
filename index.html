@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-16">
+    <title>Thermostat</title>
+  </head>
+  <body>
+    <section>
+      <style media="screen">
+        #myHeader {
+        background-color: lightblue;
+        color: black;
+        padding: 40px;
+        text-align: center;
+              }
+      </style>
+      <h1 id="myHeader">Thermostat saga</h1>
+    <h2 id = 'temperature'></h2>
+    <p>
+    <button type="button" id="temperature-up">+</button>
+    <button type="button" id="temperature-down">-</button>
+    <button type="button" id="temperature-reset">reset</button>
+    power saving mode is <span id="power-saving-status">on</span>
+    <button type="button" id="powersaving-on">PSM on</button>
+    <button type="button" id="powersaving-off">PSM off</button>
+   </p>
+    </section>
+<script src="src/thermostat.js">
+</script>
+  </body>
+</html>
