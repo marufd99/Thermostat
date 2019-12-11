@@ -12,7 +12,7 @@
         color: black;
         padding: 40px;
         text-align: center;
-              }
+        }
       </style>
       <h1 id="myHeader">Thermostat saga</h1>
     <h2 id = 'temperature'></h2>
@@ -25,7 +25,28 @@
     <button type="button" id="powersaving-off">PSM off</button>
    </p>
     </section>
-<script src="src/thermostat.js">
-</script>
+    <section>
+  <h1>Current temperature: <span id="current-temperature">20</span></h1>
+  <select id="current-city">
+    <option value="london">London</option>
+    <option value="newyork">New York</option>
+    <option value="paris">Paris</option>
+    <option value="tokyo">Tokyo</option>
+    <option value="dhaka">Dhaka</option>
+  </select>
+</section>
+<section>
+  <h1>Current temperature: <span id="current-temperature">20</span></h1>
+  <form id="select-city">
+    <input id="current-city" type="text" placeholder="Enter a city"></input>
+    <input type="submit"></input>
+  </form>
+</section>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="src/jquery.min.js"></script>
+    <script src="src/thermostat.js"></script>
+    <script src="src/interface.js"></script>
+<!-- <script src="js/jquery.min.js"></script>  -->
+<link href="index.css" type="text/css" rel="stylesheet">
   </body>
 </html>

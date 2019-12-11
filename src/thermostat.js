@@ -1,5 +1,4 @@
 'use strict';
-
 function Thermostat() {
   this.MINIMUM_TEMPERATURE = 10;
   this.temperature = 20;
